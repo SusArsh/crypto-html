@@ -1,0 +1,1112 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	margin: 0;
+}
+.container {
+    width: 1305px;
+    margin: auto;
+}
+main {
+    background-color: #0d0821;
+    background-image: url('images/Gradient.png');
+    background-position: right -324px top -230px ;
+}
+header {
+    width: 100%;
+    
+}
+.for-logo-place {
+    width: 70px;
+    height: 70px;
+    background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.logo-name {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Urbanist";
+    position: relative;
+    left: 75px;
+    top: 25px;
+}
+.nav-list {
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+}
+.nav-button {
+    border-radius: 13px;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+}
+.search {
+    width: 20px;
+    height: 25px;
+    background-image: url('images/Search.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 15px 0;
+}
+.mobile-menu {
+    display: none;
+}
+.mobile-links {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.for-open {
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    margin-left: 50px;
+}
+.mobile-menu-container ul {
+    list-style: none;
+}
+.mobile-menu-container {
+    width: 0;
+    position: sticky;
+    overflow: hidden;
+    background-color: #c07dc2;
+    top: 100px;
+    left: 50px;
+    right: 50px;
+    transition: 1s;
+}
+#open-close:checked + .mobile-menu-container {
+    width: 250px;
+}
+.for-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    /* background-image: url('images/Line.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.section-one {
+    padding-bottom: 50px;
+    background-image: url('images/Diamond1.png'),url('images/Diamond.png'),  url('images/Shape\ \(2\).png'), url('images/Gradient.png');
+    background-position: left -105px top 102px, right -72px bottom 188px, right 89px top 69px,left -324px top -230px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.second-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.trade-crypto {
+    width: 25%;
+}
+.pretitle {
+    font-size: 21px;
+    line-height: 26px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist";
+    padding-top: 95px;
+}
+.head-of-titles {
+    font-size: 106px;
+    line-height: 96px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist";
+    margin-top: 145px;
+    margin-bottom: 30px;
+
+}
+.crypto-button {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+    border-radius: 23px;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 2px solid white;
+    margin-right: 20px;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+.crypto-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.for-big-image {
+    width: 365px;
+    height: 495px;
+    background-image: url('images/crypto.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 80px;
+    
+
+}
+.with-small-image {
+    width: 25%;
+    padding-top: 240px;
+}
+.small-image {
+    width: 264px;
+    height: 149px;
+    background-image: url('images/decent.png');
+    background-repeat: no-repeat;
+    background-size:  contain;
+    background-color: #f5d9cc;
+    
+    box-shadow: 0 0 10px 5px #c07dc2;
+}
+.small-heading {
+    font-size: 21px;
+    line-height: 26px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: left;
+    padding-top: 30px;
+}
+.paragraph {
+    font-size: 12px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist";
+    text-align: left;
+}
+.section-two {
+    width: 100%;
+    background-image: url('images/Vector\ .png'), url('images/Shape\ 2\(2\).png'), url('images/Vector\ Smart.png');
+     background-position: top 10px left 65px, top 10px center , top 10px right 75px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.some-small-image {
+    width: 264px;
+    height: 149px;
+    background-color: #f5d9cc;
+    background-image: url('images/for-section2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 10px 5px #c07dc2;
+    margin-top: 450px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.for-text {
+    width: 40%;
+}
+.heading1 {
+    font-size: 21px;
+    line-height: 26px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+    padding-top: 240px;
+    padding-bottom: 50px;
+}
+.title1 {
+    font-size: 96px;
+    line-height: 96px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist";
+    text-align: center;
+    margin-bottom: 30px;
+}
+.para1 {
+    text-align: center;
+}
+.image2 {
+    background-image: url('images/for-section2-2.png');
+    margin-top:170px;
+    margin-right: 40px;
+}
+.block-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.section-three {
+    width: 100%;
+    height: 1400px;
+}
+.header-section-three {
+    font-size: 106px;
+    line-height: 96px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist";
+    text-align: center;
+    padding-top: 110px;
+}
+.first-para {
+   padding-top: 250px;
+
+}
+.second-para {
+    padding-top: 150px;
+}
+.header-first-para {
+    font-size: 21px;
+    line-height: 26px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist";
+    margin-bottom: 20px;
+}
+.text-first-para {
+    width: 200px;
+    font-size: 12px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist";
+    text-align: left;
+    margin-bottom: 30px;
+}
+.for-small-paragraphs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.phone {
+    width: 390px;
+    border-radius: 41px;
+    background-color: #ffffff;
+    border: 10px solid #ffffff;
+    box-shadow: 0 0 10px 5px gainsboro inset,  0 0 10px 5px #c07dc2;;
+    
+    position: relative;
+    bottom: 645px;
+    right: -480px;
+}
+.small-logo {
+    width: 40px;
+    height: 40px;
+    background-image: url('images/Place\ Your\ Logo\ Here\ \(Double\ Click\ to\ Edit\).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+.small-logo-name {
+    font-size: 19px;
+    color: #0d0821;
+    font-weight: 800;
+    font-family: "Urbanist";
+    text-align: center;
+}
+.phone-logo {
+    margin-top: 50px;
+}
+.phone-header {
+    font-size: 21px;
+    line-height: 26px;
+    color: #0d0821;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+#from {
+    width: 295px;
+    height: 46px;
+    border-radius: 23px;
+    margin-left:40px;
+    border: 3px solid #0d0821;
+    margin-bottom: 20px;
+}
+.for-inputs {
+    font-size: 13px;
+    line-height: 16px;
+    color: #0d0821;
+    font-weight: bold;
+    font-family: "Urbanist ";
+    margin-left: 50px;
+}
+.for-total {
+    font-size: 13px;
+    line-height: 16px;
+    color: #0d0821;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.equals {
+    font-size: 21px;
+    line-height: 26px;
+    color: #0d0821;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+    margin-bottom: 50px;
+}
+.trade-button {
+    border-radius: 23px;
+    background-color: #0d0821;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Urbanist Roman";
+    text-align: center;
+    padding: 7px 20px;
+}
+.for-trade-button {
+    text-align: center;
+    margin-bottom:65px;
+}
+.phone-list {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.phone-link {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5e5e5e;
+    font-weight: bold;
+    font-family: "Urbanist";
+}  
+.phone-menu-bar {
+    text-align: center;
+
+}
+.section-four {
+    width: 100%;
+    background-color: #e7e7e7;
+    background-image: url('images/Shape\ \(3\).png'), url('images/Shape\ \(3\).png'), 
+                        url('images/Shape\ \(3\).png'),url('images/Diamond11.png'), url('images/Diamond11.png') ;
+     background-repeat: no-repeat;
+     background-position: left 35px top 100px, left 33px top 60px, right 10px bottom 10px, 
+                            right -93px top 10px, left -57px bottom 10px;
+   
+}
+.subhead-trading {
+    font-size: 21px;
+    line-height: 26px;
+    color: #0d0821;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: left;
+    padding-top: 250px;
+}
+.title-of-trading {
+    font-size: 106px;
+    line-height: 104px;
+    color: #0d0821;
+    font-weight: 500;
+    font-family: "Urbanist";
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.text-of-trading {
+    font-size: 12px;
+    color: #0d0821;
+    font-weight: 500;
+    font-family: "Urbanist"; ;
+    width: 70%;
+    padding-left: 50px;
+    text-align: justify ;
+}
+.texts-trading {
+    width: 50%;
+}
+.trading-button {
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.trade {
+    background-color: #0d0821;
+    color: white;
+   
+}
+.for-image-coins {
+    display: flex;
+}
+.coins-img {
+    width: 477px;
+    height: 654px;
+    background-image: url('images/coins.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -170px;
+    margin-top: 88px;
+}
+.small-line {
+    width: 1px;
+    height: 827px;
+    background-color: #0d0821;
+}
+.about-trading-crypto {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-five {
+    width: 100%;
+    background-image: url('images/Shape\ \(2\).png'), url('images/Shape\ \(2\).png'), url('images/Shape\ \(2\).png');
+    background-repeat: no-repeat;
+    background-position: right 35px top 100px, right 33px bottom 67px, right 136px bottom 67px;
+}
+.image-percent {
+    width: 598px;
+    height: 834px;
+    
+    background-image: url('images/percent.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -336px ;
+    box-shadow: 0 0 10px 5px #c07dc2;
+}
+.for-info {
+    width: 50%;
+}
+.title-five {
+    font-size: 106px;
+    line-height: 96px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist ";
+    text-align: center;
+    padding-top: 250px;
+}
+.text-of-fifth {
+    width: 70%;
+    font-size: 12px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist";
+    text-align: center;
+    margin: 30px 0 30px 125px;
+   
+}
+.for-correct-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+.button-five {
+    text-align: center;
+}
+.section-sixth {
+    width: 100%;
+    padding-bottom: 120px;
+}
+.header-sixth {
+    font-size: 106px;
+    line-height: 96px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist";
+    text-align: center;
+    padding: 95px 0;
+}
+.first-image-box {
+    width: 442px;
+    height: 249px;
+    background-image: url('images/image1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 0 10px 5px #c07dc2;
+}
+.header-of-first-image-box {
+    font-size: 21px;
+    line-height: 26px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist";
+    margin-top: 30px;
+    margin-right: 180px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.second-image-box {
+    background-image: url('images/image2.png');
+}
+.image-box-2 {
+    margin-right: 220px;
+}
+.image-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box3 {
+    background-image: url('images/image3.png');
+}
+.box4 {
+    background-image: url('images/image4.png');
+}
+.for-box-3 {
+    margin-right: 225px;
+}
+.for-box-4 {
+    margin-right: 245px;
+}
+.second-line {
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+.box5 {
+    background-image: url('images/image5.png');
+}
+.for-box-5 {
+    margin-right: 205px;
+}
+.box6 {
+    background-image: url('images/image6.png');
+}
+.for-box-6 {
+    margin-right: 235px;
+}
+.section-seventh {
+    width: 100%;
+    padding-bottom: 150px;
+    background-color: #e7e7e7;
+    background-image: url('images/Shape\ \(3\).png'), url('images/Shape\ \(3\).png'),
+                         url('images/Diamond22.png'),url('images/Shape\ \(3\).png'), url('images/Diamond22.png');
+    background-repeat: no-repeat;
+    background-position: right 80px top 50px, right 80px top 100px, left -82px top 30px, 
+                        left 40px bottom 10px, right -100px bottom -55px;
+    
+}
+
+.subhead-easier {
+    font-size: 21px;
+    line-height: 26px;
+    color: #0d0821;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+    padding: 120px 0 30px 0;
+}
+.header-easier {
+    font-size: 106px;
+    line-height: 104px;
+    color: #0d0821;
+    font-weight: 500;
+    font-family: "Urbanist";
+    text-align: center;
+    padding-bottom: 80px;
+}
+.for-black-line {
+    width: 100%;
+    height: 1px;
+    background-color: #0d0821;
+}
+.benefit1 {
+    width: 30%;
+}
+.header-benefit {
+    font-size: 21px;
+    line-height: 26px;
+    color: #0d0821;
+    font-weight: bold;
+    font-family: "Urbanist";
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.text-benefit {
+    font-size: 12px;
+    color: #0d0821;
+    font-weight: 500;
+    font-family: "Urbanist";
+    text-align: justify;
+}
+.for-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-eighth {
+    width: 100%;
+    background-image: url('images/Design.png');
+    background-repeat: no-repeat;
+    background-position: 10px 50px;
+}
+.heading-feedbacks {
+    width: 50%;
+    margin-left: 50px;
+}
+.title-feedback {
+    font-size: 106px;
+    line-height: 96px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist ";
+    padding: 250px 0 30px 0;
+    
+}
+.subheader-feedback {
+    font-size: 21px;
+    line-height: 26px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist ";
+}
+.customer-feedbacks {
+    width: 45%;
+    padding-top: 100px;
+}
+.name-answers {
+    width: 50%;
+}
+.answer {
+    font-size: 12px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist Roman";
+    text-align: left;
+}
+.name {
+    font-size: 21px;
+    line-height: 26px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist "; 
+    padding: 20px 0 30px 0;
+}
+.feedbacks {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    width: 100%;
+    padding-bottom: 150px;
+}
+.column-one {
+    width: 20%;  
+    padding-top: 80px;  
+}
+.header-foot-one {
+    font-size: 21px;
+    line-height: 26px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist ";
+    padding-bottom: 20px;
+}
+.unordered-foot {
+    padding-left: 0;
+}
+.foot-lists {
+    list-style: none;
+}
+.foot-link {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 23px;
+    color: #e7e7e7;
+    font-weight: 500;
+    font-family: "Urbanist Roman";
+    text-align: left;
+}
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.legals {
+    font-size: 15px;
+    line-height: 18px;
+    color: #e7e7e7;
+    font-weight: bold;
+    font-family: "Urbanist";
+    margin: 80px 0 0 50px;
+}
+
+@media screen and (max-width: 1200px){
+    .container {
+        width: 1000px;
+        margin: auto;
+    }
+    .head-of-titles, .title1, .title-of-trading, .title-five, .header-sixth, .header-easier, .title-feedback {
+        font-size: 80px;
+    }
+    .crypto-button {
+       font-size: 10px;
+       padding: 10px;
+       margin-right: 5px;
+    }
+    .some-small-image {
+        margin: 0;
+    }
+    .heading1 {
+        padding-top: 50px;
+    }
+    .for-text {
+        padding-bottom: 50px;
+    }
+    .for-small-paragraphs {
+        justify-content: space-between;
+    }
+    .phone {
+        left: 385px
+    }
+    .section-three {
+        height: 1200px;
+    }
+    .image-percent {
+        width: 50%;
+        background-position: -434px;
+    }
+    .text-of-fifth {
+        width: 90%;
+        margin:0;
+        padding-left: 30px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .container {
+        width: 900px;
+        margin: auto;
+    }
+    .phone {
+        width: 350px;
+        left: 325px;
+    }
+    #from {
+        margin-left: 20px;
+    }
+    .title-of-trading, .text-of-trading {
+        padding-left: 0;
+    }
+    .for-image-coins {
+        width: 50%;
+    }
+    .heading-feedbacks {
+        margin-left:0;
+        padding-left: 20px;
+    }
+        
+    
+}
+
+@media screen and (max-width: 900px){
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .phone {
+        left: 285px;
+    }
+    .block-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .for-text {
+        width: 100%;
+    }
+    .image2 {
+        margin-bottom: 30px;
+    }
+    .trade-crypto,.for-big-image, .with-small-image {
+        width: 30%;
+    }
+    .for-big-image {
+        margin-top: 200px;
+    }
+    .image-boxes {
+        justify-content: center;
+    }
+    .head-of-titles, .title1, .title-of-trading, .title-five, .header-sixth, .header-easier, .title-feedback {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+    .phone {
+        left: 220px;
+    }
+    .feedbacks {
+        justify-content:space-between;
+    }
+}
+@media screen and (max-width: 700px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .trade-crypto {
+        width: 100%;
+        text-align: center;
+    }
+    .head-of-titles {
+        margin-bottom: 50px;
+    }
+    .for-big-image {
+        margin-top: 50px;
+    }
+    .with-small-image {
+        padding-top: 65px;
+    }
+    .crypto-button {
+        padding: 10px 15px ;
+    }
+    .first-para {
+        padding-top: 0;
+    }
+    .phone {
+       bottom:-35px;
+       left: 180px;
+    }
+    .section-three {
+        height: 1400px;
+    }
+    .header-section-three {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .small-image {
+        width: 240px;
+        height: 150px;
+        background-size: auto;
+    }
+    .phone {
+        left: 130px;
+    }
+    .name-answers {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .with-small-image {
+        width: 100%;
+        padding:30px;
+    }
+    .for-big-image {
+        width: 100%;
+        background-position: center;
+    }
+    .phone {
+        left: 80px;
+    }
+    .section-four {
+        background-image: none;
+        background-image: url('images/coins.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -21px 0;
+    }
+    .texts-trading {
+        width: 100%;
+        padding: 30px;
+        
+    }
+    .for-image-coins {
+        display: none;
+    }
+    .for-info {
+        width: 100%;
+        background-image: url('images/percent.png');
+        background-repeat: no-repeat;
+        background-position: -480px -210px;
+        padding: 30px;
+    }
+    .image-percent {
+        display: none;
+    }
+    .column-one {
+        width: 50%;
+        padding-left: 30px;
+    }
+    .first-image-box {
+        width: 90%;
+        height: 200px;
+        background-size: cover;
+        margin: auto;
+    }
+    
+     .box4 {
+         margin:0;
+         width: 90%;
+        
+     }
+}
+@media screen and (max-width: 470px){
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .phone {
+        position: static;
+        width: 80%;
+        margin: auto;
+    }
+    #from {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .para1 {
+        padding: 20px;
+    }
+    
+    .section-three {
+        height: 1600px;
+    }
+    .first-image-box {
+        margin: auto;
+    }
+    .for-small-paragraphs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading-feedbacks {
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+    }
+    .title-feedback {
+        padding-top: 80px;
+    }
+    .customer-feedbacks {
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+    }
+    .for-benefits {
+        flex-direction: column;
+        align-content: center;
+    }
+    .benefit1 {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .for-big-image {
+        margin-left: 25px;
+    }
+    .header-of-first-image-box {
+        margin-right:100px;
+    }
+    .arrow-icon {
+        display: none;
+    }
+    .box1, .box2, .box3, .box5, .box6 {
+        width: 280px;
+        margin-left: 0;
+    }
+    .first-image-box,.second-image-box {
+        margin-left: 0;
+    }
+    .text-of-trading {
+        width: 100%;
+    }
+
+    .box4{
+        width: 260px;
+       
+    }
+}
+
+/* @media screen and (max-width: 350px){
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .box2 {
+        width: 300px;
+    }
+    .box4 {
+        margin:auto;
+    }
+    .first-image-box {
+        margin-right: 0;
+    }
+    .box4 {
+        margin-left: 10px;
+    }
+    .phone {
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #from {
+        width: 90%;
+    }
+   .header-sixth {
+       font-size: 40px;
+   }
+   .head-of-titles {
+       font-size: 40px;
+   }
+   .image-boxes {
+       flex-direction: column;
+       align-items: center;
+   }
+
+} */
+
+@media screen and (max-width: 350px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    /* .phone {
+        width: 80%;
+    }
+    #from {
+        width: 80%;
+    } */
+
+}
